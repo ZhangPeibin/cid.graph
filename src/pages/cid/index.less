@@ -1,0 +1,98 @@
+.cidgraph {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/images/bg.png");
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .cidgraph-header {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 48px;
+      width:60%;
+      .logo{
+        width: 32px;
+        background-repeat: no-repeat;
+        background-image: url("../../assets/images/logo.png");
+      }
+      .cidgraph-header-search{
+        // background: rgb(83, 19, 201,0.7);
+        // width: 60%;
+        border: none;
+        width: 50%;
+      }
+      .btn-connect {
+        height: 32px;
+        margin-left: 32px;
+        padding-left: 12px;
+        padding-right: 12px;
+        background: rgba(18, 222, 230, 0.7);
+        border: none;
+        color:white
+      }
+      .btn-upload {
+        height: 32px;
+        padding-bottom: 6px;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-left: 32px;
+        background: rgba(18, 222, 230, 0.7);
+        border: none;
+        color:white
+      }
+    }
+  
+    .cidgraph-content {
+      margin:  20px auto;
+      width: 90%;
+      .cidgraph-cards{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .cidgraph-card{
+          padding-bottom: 2px;
+          padding-top: 12px;
+          text-align: center;
+          color: white;
+          background-image: url("../../assets/images/card_bg.png");
+          .h2{
+            color: white;
+          }
+        }
+      }
+      
+    }
+
+    .cidgraph-card-colume {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin:  20px auto;
+        height: 350px;
+        width: 100%;
+
+        .cidgraph-card-colume-list{
+          display:flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          color:white;
+          .list-item{
+            color: white;
+            width: 100%;
+            height: 100%;
+            padding-left: 16px;
+          }
+          .list-header{
+            padding-left: 16px;
+          }
+
+        }
+    }
+
+
+
+  }
